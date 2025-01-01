@@ -1,7 +1,11 @@
+let theme = null;
+
 export function setLightTheme() {
-    console.log("Light theme");
+    theme = "Light";
+    console.log(theme);
 }
 
 export function setDarkTheme() {
-    console.log("Dark theme");
+    theme = "Dark";
+    console.log(theme);
 }
